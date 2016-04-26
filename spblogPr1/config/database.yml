@@ -16,7 +16,7 @@ default: &default
   username: spblogpr1_admin
   password: password
   socket: /var/run/mysqld/mysqld.sock
-    #/tmp/mysql.sock
+    #/tmp/mysql.sock     mac->  /private/tmp/mysql.sock
 
 development:
   <<: *default
